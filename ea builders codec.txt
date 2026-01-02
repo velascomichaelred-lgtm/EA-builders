@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EA Builders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: linear-gradient(135deg,#1f2933,#111827);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #f59e0b;
+  color: #000;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>EA Builders</h1>
+  <p>Reliable • Professional • Quality Construction</p>
+  <a href="#contact" class="btn">Get in Touch</a>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    EA Builders is a trusted construction company committed to delivering
+    quality residential and commercial projects. We focus on durability,
+    safety, and client satisfaction in every build.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">🏠 Residential Construction</div>
+    <div class="card">🏢 Commercial Buildings</div>
+    <div class="card">🔧 Renovation & Remodeling</div>
+    <div class="card">📐 Design & Planning</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">House Construction Project</div>
+    <div class="card">Building Renovation</div>
+    <div class="card">Commercial Space Development</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Information</h2>
+  <p style="text-align:center;">
+    📍 42 Araceli St., Brgy. Gulod, Novaliches, Quezon City <br><br>
+    📞 0968-560-3069 <br><br>
+    📧 eabuilders@gmail.com
+  </p>
+</section>
+
+<footer>
+  © 2026 EA Builders. All Rights Reserved.
+</footer>
+
+</body>
+</html>
